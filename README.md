@@ -48,3 +48,30 @@ EXPOSE 83
 
 # The final instruction copies the site you published earlier into the container.
 COPY WcfCalcu/ .
+
+EJEMPLO Request Servicio SOAP
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:wcf="http://schemas.datacontract.org/2004/07/WcfCalcu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:SumaNumeros>
+         <!--Optional:-->
+         <tem:reqSumandos>
+            <!--Optional:-->
+            <wcf:Sumando1>6</wcf:Sumando1>
+            <!--Optional:-->
+            <wcf:Sumando2>7</wcf:Sumando2>
+         </tem:reqSumandos>
+      </tem:SumaNumeros>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+Ejemplo Response
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <SumaNumerosResponse xmlns="http://tempuri.org/">
+         <SumaNumerosResult>13</SumaNumerosResult>
+      </SumaNumerosResponse>
+   </s:Body>
+</s:Envelope>
