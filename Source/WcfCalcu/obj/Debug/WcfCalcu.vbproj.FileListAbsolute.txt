@@ -1,0 +1,11 @@
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\bin\WcfCalcu.dll.config
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\bin\WcfCalcu.dll
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\bin\WcfCalcu.pdb
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\bin\WcfCalcu.xml
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\obj\Debug\WcfCalcu.vbprojResolveAssemblyReference.cache
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\obj\Debug\WcfCalcu.Resources.resources
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\obj\Debug\WcfCalcu.vbproj.GenerateResource.Cache
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\obj\Debug\WcfCalcu.vbproj.CoreCompileInputs.cache
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\obj\Debug\WcfCalcu.dll
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\obj\Debug\WcfCalcu.xml
+c:\users\felipe\source\repos\WcfCalcu\WcfCalcu\obj\Debug\WcfCalcu.pdb
